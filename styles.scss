@@ -1,0 +1,94 @@
+$bg-color: #2D2D2A;
+$move-color: lighten($bg-color, 30%);
+$move-color-border: lighten($bg-color, 20%);
+$text-color: #ffffff;
+$font: 'Montserrat', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+html {
+    height: 80%;
+    font-family: $font;
+}
+
+body {
+    background-color: $bg-color;
+    height: 30rem;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: $text-color;
+    margin: 1rem;
+}
+
+.move-icon-ai {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 4rem;
+    border: 0.5rem solid $move-color-border;
+    background-color: $move-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.ai-move {
+    border-color: lighten($move-color-border, 20%);
+    background-color: lighten($move-color, 20%);
+}
+
+.move-icon {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 4rem;
+    border: 0.5rem solid $move-color-border;
+    background-color: $move-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    &:hover {
+        border: 0.5rem solid lighten($move-color-border, 20%);
+        background-color: lighten($move-color, 20%);
+    }
+}
+
+.move-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.versus {
+    font-weight: 600;
+    color: $text-color;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    & .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $text-color;
+        font-family: $font;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+}
+
+

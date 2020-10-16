@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="container">
+        <div>
+            <div class="scoreboard">
+                <div class="col">
+                    <span>Bender</span>
+                    <span id="ai-score">0</span>
+                </div>
+                <div class="col">
+                    <span>Player</span>
+                    <span id="player-score">0</span>
+                </div>
+            </div>
+            <div class="move-container">
+                <button id='rock' class="move-icon-ai">👊</button>
+                <button id='paper' class="move-icon-ai">🖐️</button>
+                <button id='scissors' class="move-icon-ai">✌️</button>
+            </div>
+            <p id="move-result" class="versus">VS</p>
+            <div class="move-container">
+                <button class="move-icon" onclick="playMove('rock')">👊</button>
+                <button class="move-icon" onclick="playMove('paper')">🖐️</button>
+                <button class="move-icon" onclick="playMove('scissors')">✌️</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

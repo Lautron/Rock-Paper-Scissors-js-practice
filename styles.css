@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+html {
+  height: 80%;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #2D2D2A;
+  height: 30rem;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  margin: 1rem;
+}
+
+.move-icon-ai {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 4rem;
+  border: 0.5rem solid #62625b;
+  background-color: #7c7c74;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3.5rem;
+}
+
+.ai-move {
+  border-color: #95958e;
+  background-color: #aeaea8;
+}
+
+.move-icon {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 4rem;
+  border: 0.5rem solid #62625b;
+  background-color: #7c7c74;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3.5rem;
+}
+
+.move-icon:hover {
+  border: 0.5rem solid #95958e;
+  background-color: #aeaea8;
+}
+
+.move-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.versus {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.scoreboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2rem;
+}
+
+.scoreboard .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=styles.css.map */
